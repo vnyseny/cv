@@ -34,7 +34,7 @@ jobs:
         with:
           path: github_deploy
       - name: log files
-        run: ls github_deploy
+        run: touch .tmp ; ls -a github_deploy
       - name: deploy on orphan branch
         uses: peaceiris/actions-gh-pages@v3
         with:

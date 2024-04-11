@@ -1,20 +1,25 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8">      
-        
-        <!--You can add your name and affiliation below to personalise -->
-        <meta property="og:title" content="My CV"/>
-        
-        <!--You can add your keywords to personalise-->
-        <meta property="og:description" content="Education, Experience, Projects etc."/>
-        
-        <meta property="og:image" content="https://dummyimage.com/100x100/000/fff&text=CV" />
-        <title>CV</title>
-    </head>
-    <body>
-    <script type="text/javascript">
-        window.location.href = "./cv.pdf"
-    </script>
-    </body>
+   <head>
+      <meta charset="UTF-8" />
+      <!--You can add your name and affiliation below to personalise -->
+      <meta property="og:title" content="Vinay CV" />
+      <!--You can add your keywords to personalise-->
+      <meta property="og:description" content="Education, Experience, Projects etc." />
+      <meta property="og:image" content="https://dummyimage.com/100x100/000/fff&text=CV" />
+      <title>CV</title>
+   </head>
+   <style>
+      * {
+      margin: 0 !important;
+      padding: 0 !important;
+      }
+      .pdf {
+      width: 100vw;
+      height: 100vh;
+      }
+   </style>
+   <body>
+      <iframe class="pdf" src="./cv.pdf"> </iframe>
+   </body>
 </html>

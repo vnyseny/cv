@@ -29,13 +29,10 @@
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{10pt}{10pt}
 %for publications
-\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
 %Setup hyperref package, and colours for links
 \usepackage[unicode, draft=false]{hyperref}
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-\addbibresource{citations.bib}
-\setlength\bibitemsep{1em}
 %for social icons
 \usepackage{fontawesome5}
 
@@ -85,7 +82,7 @@
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
 \Huge{Vinay Saini} \\[7.5pt]
-{Full-Stack Software Development Engineer} \\[7.5pt]
+{Lead Software Engineer | .NET Full-Stack Developer} \\[7.5pt]
 \href{https://github.com/vnyseny}{\raisebox{-0.05\height}\faGithub\ vnyseny} \ $|$ \ 
 \href{https://linkedin.com/in/vnyseny}{\raisebox{-0.05\height}\faLinkedin\ in/vnsyseny} \ $|$ \ 
 %\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
@@ -99,7 +96,7 @@
 
 %Interests/ Keywords/ Summary
 \section{Summary}
-Dedicated Full-Stack Software Development Engineer with a strong background in developing innovative solutions for the banking and financial sector. Skilled in designing, implementing, and maintaining robust software applications to meet the complex needs of financial institutions. Experienced in the entire software development life-cycle, from concept to deployment, with a focus on delivering high-quality, scalable solutions.
+Lead Software Engineer and .NET Full-Stack Developer experienced in designing, developing, and modernizing enterprise applications across insurance and financial services. Hands-on experience with .NET 10, ASP.NET Core REST APIs, SQL Server, MongoDB, Elasticsearch, Amazon Athena, Kafka, Redis, and AWS containerized deployments using ECS. Experienced in integrating insurer REST and SOAP services, evolving distributed applications, and migrating legacy .NET Framework applications hosted on IIS on AWS EC2 to modern .NET APIs. Focused on application design, maintainability, reliability, and delivering business-focused features.
 
 %Education
 \section{\textbf{Education}}
@@ -119,13 +116,15 @@ Dedicated Full-Stack Software Development Engineer with a strong background in d
 \section{\textbf{Technical Skills}}
  \begin{itemize}[leftmargin=0.1in, label={}]
     \small{\item{
-     \textbf{Languages}{: C\#, Javascript, Typescript, Java, Python, SQL, HTML, XML} \\
-     \textbf{Developer Tools}{: Visual Studio, VS Code, Git, Github } \\
-     \textbf{Frameworks/Libraries}{: ASP.NET, .NET(Dotnet), ReactJs, Angular, MVC, MVVM, Blazor, Bootstrap, JQuery, Entity Framework, LINQ, Serilog, OpenXML } \\
-     \textbf{Coursework}{: Data Structures \& Algorithms, SDLC, Object Oriented Programming, Database Management System, Software Engineering.} \\
-     % \textbf{Areas of Interest}{: } \\
-     \textbf{Other Skills}{: Azure DevOps, IIS ,Linux, REST API, SOAP, WPF} \\
-     \textbf{Soft Skills}{: Self-learning, Presentation, Adaptability, Communication, Teamwork, Problem-solving, Leadership, Time Management, Critical Thinking, Emotional Intelligence} \\
+     \textbf{Languages}{: C\#, SQL, JavaScript, TypeScript, Python, HTML, XML} \\
+     \textbf{.NET Technologies}{: .NET 10, ASP.NET Core, .NET Framework, Web API, RESTful APIs, SOAP, MVC, Entity Framework, LINQ} \\
+     \textbf{Databases, Search \& Analytics}{: SQL Server, MongoDB, Elasticsearch, Amazon Athena} \\
+     \textbf{Messaging \& Caching}{: Apache Kafka, Redis} \\
+     \textbf{Cloud \& Hosting}{: AWS ECS, AWS EC2, IIS, containerized deployments} \\
+     \textbf{Frontend}{: Next.js, React, Angular, Blazor, Bootstrap, jQuery} \\
+\textbf{AI-Assisted Development Tools}{: OpenAI Codex, Cursor, GitHub Copilot, Kiro, ChatGPT, Google Gemini} \\
+     \textbf{Tools}{: Visual Studio, VS Code, Git, GitHub, Azure DevOps, Serilog} \\
+     \textbf{Core Strengths}{: Application Design, Distributed Systems, Legacy Modernization, API Integration, Technical Leadership, Code Reviews, Performance Optimization} \\
     }}
  \end{itemize}
 
@@ -134,15 +133,28 @@ Dedicated Full-Stack Software Development Engineer with a strong background in d
 
 \resumeSubHeadingListStart
 \resumeExperience {Policybazaar Insurance Brokers Private Limited, Gurgaon}
- {Senior Technical Associate} {Sep 2024 - Present}
+ {Lead Software Engineer} {Apr 2026 - Present}
  {}
 \resumeItemListStart
-    \item \textbf{Development \& Maintenance:} Design, develop, and maintain scalable software solutions in alignment with business requirements. Utilize technologies such as .NET, ASP.NET Core, and SQL databases.
-    \item \textbf{Project Management:} Collaborate with cross-functional teams, manage project timelines, and ensure timely delivery of software features and updates.
-    \item \textbf{Quality Assurance:} Ensure code quality through unit testing and peer reviews, and resolve bugs in a timely manner.
-    \item \textbf{Continuous Improvement:} Contribute to optimizing software architecture, improving performance, and adopting best practices for coding and system efficiency.
-    \item \textbf{Support \& Troubleshooting:} Provide technical support for the application, troubleshoot issues, and ensure high availability of the services.
-    \resumeItemListEnd
+    \item \textbf{Application Architecture:} Established and evolved application architecture and development conventions for .NET Core applications, making the codebase more developer-friendly, maintainable, and easier to extend.
+    \item \textbf{Feature Engineering:} Lead application design and develop new features for insurance technology workflows, translating business requirements into maintainable full-stack solutions with a focus on reliability and long-term supportability.
+    \item \textbf{Distributed Systems:} Develop services using \textbf{.NET 10 / ASP.NET Core}, \textbf{SQL Server, MongoDB, Elasticsearch, Amazon Athena, Kafka, and Redis} to support application data, search and analytics, asynchronous messaging, and caching.
+    \item \textbf{AWS Hosting:} Build and support containerized applications deployed on \textbf{AWS ECS}; maintain and modernize legacy .NET Framework applications hosted on \textbf{IIS on AWS EC2}.
+    \item \textbf{Legacy Modernization:} Migrate legacy .NET Framework functionality into modern .NET RESTful APIs, enabling incremental modernization while supporting existing business operations.
+    \item \textbf{AI-Enabled OCR:} Developed a Python-based OCR solution to extract information from customers' existing insurance policies during policy-portability journeys, reducing manual data entry and helping simplify complex forms.
+    \item \textbf{Integration Management System (IMS):} Designed and developed a web-based \textbf{ASP.NET Core MVC} internal management application with modules for maintaining application configurations and parameters at runtime.
+    \item \textbf{Payment and Logging Improvements:} Migrated the payment service module and redesigned the application logging approach to improve robustness and support more efficient diagnostics.
+\emptyLine
+\emptyLine
+\resumeItemListEnd
+\resumeExperience {Policybazaar Insurance Brokers Private Limited, Gurgaon}
+ {Senior Software Engineer} {Sep 2024 - Mar 2026}
+ {}
+\resumeItemListStart
+    \item \textbf{Insurer Integrations:} Integrated external services from multiple insurers through both \textbf{REST APIs and SOAP web services}, connecting insurer capabilities with internal insurance workflows.
+    \item \textbf{Full-Stack Feature Development:} Developed new application features across backend services and frontend components, contributing to end-to-end delivery of insurance product capabilities.
+    \item \textbf{Legacy Application Support:} Worked across modern .NET services and the existing .NET Framework application estate, supporting enhancements, troubleshooting, and gradual modernization.
+\resumeItemListEnd
 \resumeSubHeadingListEnd
 
 \resumeSubHeadingListStart
